@@ -1,0 +1,46 @@
+{
+  "image": "samples/bottle_fridge.jpg",
+  "image_size": {
+    "width": 1280,
+    "height": 1707
+  },
+  "model": "yolov8n.pt",
+  "ultralytics_version": "8.4.213",
+  "conf": 0.25,
+  "imgsz": 1280,
+  "device": "cpu",
+  "anchor": "bottom",
+  "row_tolerance": 0.08,
+  "classes": [
+    "bottle",
+    "wine glass",
+    "cup",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake"
+  ],
+  "total_detections": 1,
+  "rows": {
+    "row_1": [
+      {
+        "class": "bottle",
+        "confidence": 0.3029,
+        "bbox": [
+          246.71,
+          1052.84,
+          363.64,
+          1449.59
+        ],
+        "anchor_y": 1449.59326171875
+      }
+    ]
+  }
+}

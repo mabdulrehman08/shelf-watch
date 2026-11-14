@@ -1,0 +1,57 @@
+{
+  "image": "samples/store_fridge.jpg",
+  "image_size": {
+    "width": 1280,
+    "height": 1707
+  },
+  "model": "yolov8n.pt",
+  "ultralytics_version": "8.4.213",
+  "conf": 0.25,
+  "imgsz": 1280,
+  "device": "cpu",
+  "anchor": "bottom",
+  "row_tolerance": 0.08,
+  "classes": [
+    "bottle",
+    "wine glass",
+    "cup",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake"
+  ],
+  "total_detections": 2,
+  "rows": {
+    "row_1": [
+      {
+        "class": "donut",
+        "confidence": 0.4467,
+        "bbox": [
+          782.24,
+          1279.53,
+          874.66,
+          1327.69
+        ],
+        "anchor_y": 1327.6884765625
+      },
+      {
+        "class": "donut",
+        "confidence": 0.6191,
+        "bbox": [
+          602.77,
+          1275.32,
+          683.56,
+          1330.17
+        ],
+        "anchor_y": 1330.1748046875
+      }
+    ]
+  }
+}

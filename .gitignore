@@ -1,0 +1,5 @@
+.venv/
+.yolo/
+.mpl/
+__pycache__/
+*.pt
